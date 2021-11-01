@@ -17,14 +17,17 @@ sudo curl -sSL get.docker.com | sh
 터미널에서 아래 명령어 입력
 
 ```bash
-git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git
+git clone https://github.com/DCUSnSLab/DCU-Online-Judge-Deploy.git
 ```
+
+이후 해당 경로로 이동한 뒤 아래 명령어 입력
 
 ```bash
 docker-compose up -d
 ```
 
-설치 후 초기 Admin 계정은 ```root```, 패스워드는 ```rootroot``` 입니다.
+서비스 URL은 ```localhost:80``` 
+초기 Admin 계정은 ```root```, 패스워드는 ```rootroot``` 입니다.
 
 ## 定制
 
