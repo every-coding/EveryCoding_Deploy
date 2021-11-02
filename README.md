@@ -1,6 +1,6 @@
 ### Linux
 
-Docker, Docker-compose 설치
+Docker, Docker-compose 등 필요 소프트웨어 설치
 
 ```bash
 sudo apt-get update && sudo apt-get install -y vim python-pip curl git
