@@ -30,3 +30,4 @@ docker-compose up -d
 초기 Admin 계정은 ```root```, 패스워드는 ```rootroot``` 입니다.
 
 # Forked by
+https://github.com/QingdaoU/OnlineJudgeDeploy/tree/2.0
