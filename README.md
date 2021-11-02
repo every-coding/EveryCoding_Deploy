@@ -1,4 +1,4 @@
-### Linux
+## Linux
 
 Docker, Docker-compose 등 필요 소프트웨어 설치
 
