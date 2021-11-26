@@ -10,6 +10,12 @@ Docker - Setting - General에서
 Docker-Compose V2 옵션 적용
 ![image](https://user-images.githubusercontent.com/40351426/143538687-36a4bb2f-0727-4404-911b-649b48cb0dea.png)
 
+이후 아래 명령어를 통해 각 컨테이너 이미지 내려받기 & 컨테이너 compose up 진행
+
+```
+docker-compose up -d
+```
+
 ## Linux
 
 Docker, Docker-compose 등 필요 소프트웨어 설치
