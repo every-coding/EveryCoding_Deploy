@@ -6,6 +6,10 @@ Docker, Docker-compose 설치
 WSL2 기반 Docker 설치
 [Docker-desktop install](https://www.docker.com/products/docker-desktop)
 
+Docker - Setting - General에서
+Docker-Compose V2 옵션 적용
+![image](https://user-images.githubusercontent.com/40351426/143538687-36a4bb2f-0727-4404-911b-649b48cb0dea.png)
+
 ## Linux
 
 Docker, Docker-compose 등 필요 소프트웨어 설치
