@@ -1,3 +1,11 @@
+## Windows 10
+
+Docker, Docker-compose 설치
+
+### Docker
+WSL2 기반 Docker 설치
+[Docker-desktop install](https://www.docker.com/products/docker-desktop)
+
 ## Linux
 
 Docker, Docker-compose 등 필요 소프트웨어 설치
