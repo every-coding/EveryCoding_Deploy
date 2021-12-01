@@ -67,7 +67,7 @@ services:
         container_name: oj-frontend
         restart: always
         #command: /bin/bash -c "while true; do echo test; sleep 100; done"
-        command: /bin/bash start_node.sh
+        command: sh -c "service ssh start && /bin/bash start_node.sh"
         depends_on:
           - oj-backend
         volumes:
