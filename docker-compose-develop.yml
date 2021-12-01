@@ -43,8 +43,10 @@ services:
           - judger_debug=1
     oj-backend:
         image: junhp1234/oj_backend:latest
+        #command: /app/start_ssh.sh
         container_name: oj-backend
         restart: always
+
         depends_on:
           - oj-redis
           - oj-postgres
