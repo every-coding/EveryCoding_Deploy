@@ -13,7 +13,8 @@ Docker-Compose V2 옵션 적용
 이후 아래 명령어를 통해 각 컨테이너 이미지 내려받기 & 컨테이너 compose up 진행
 
 ```
-docker-compose up -d
+docker-compose -f docker-compose.yaml up -d
+# 개발 환경 구성의 경우 docker-compose -f docker-compose-develop.yaml up -d
 ```
 
 ## Linux
@@ -40,8 +41,10 @@ git clone https://github.com/DCUSnSLab/DCU-Online-Judge-Deploy.git
 
 이후 해당 경로로 이동한 뒤 아래 명령어 입력
 
+
 ```bash
-docker-compose up -d
+docker-compose -f docker-compose.yaml up -d
+# 개발 환경 구성의 경우 docker-compose -f docker-compose-develop.yaml up -d
 ```
 
 서비스 URL은 ```localhost:80``` 
