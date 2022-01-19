@@ -50,5 +50,14 @@ docker-compose -f docker-compose.yaml up -d
 서비스 URL은 ```localhost:80``` 
 초기 Admin 계정은 ```root```, 패스워드는 ```rootroot``` 입니다.
 
+## pgadmin4
+
+docker-compose 시 개발 환경 구성으로 셋업하는 경우,
+데이터베이스 확인을 위한 pgadmin4 컨테이너를 포함하여 compose를 진행합니다.
+pgadmin4 디폴트 계정 ID / PW는 아래와 같습니다.
+
+admin@admin.com
+root
+
 # Forked by
 https://github.com/QingdaoU/OnlineJudgeDeploy/tree/2.0
