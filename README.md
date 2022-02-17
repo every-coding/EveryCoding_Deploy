@@ -1,6 +1,5 @@
 ## Windows 10
 
-### Requirements
 Docker, Docker-compose 설치
 
 ### Docker
@@ -13,10 +12,28 @@ Docker-Compose V2 옵션 적용
 
 이후 아래 명령어를 통해 각 컨테이너 이미지 내려받기 & 컨테이너 compose up 진행
 
-```
+```bash
 docker-compose -f docker-compose.yaml up -d
 # 개발 환경 구성의 경우 docker-compose -f docker-compose-develop.yaml up -d
 ```
+
+
+### Front-end
+원격 개발 위한 Jetbrains Gateway 설치
+[Jetbrains Gateway install](https://www.jetbrains.com/ko-kr/remote-development/gateway/)
+
+이후 Remote Development - SSH에서 Connect to SSH (Connection : root@localhost:5556)
+![img.png](img.png)
+
+프로젝트 내 Github 로그인 진행 (Github page 내 Personal access tokens 사용 권장)
+
+
+### Back-end
+Pycharm 설치
+
+
+
+
 
 ## Linux
 
