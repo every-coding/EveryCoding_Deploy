@@ -30,10 +30,20 @@ docker-compose -f docker-compose.yaml up -d
 
 ### Back-end
 Pycharm 설치
+[Pycharm install](https://www.jetbrains.com/ko-kr/pycharm/download/#section=windows)
 
+터미널에서 아래 명령어 입력
 
+```bash
+git clone https://github.com/DCUSnSLab/DCU_Online_Judge_Backend.git
+```
 
+project open 후 Tools - Deployment - Configuration에서 Connection 진행 
 
+(Type : SFTP, SSH Configuration : root@localhost:5555, Root path : /app)
+![img_1.png](img_1.png)
+
+이후 Tools - Deployment - Automatic upload 체크 권장 및 선택 사항
 
 ## Linux
 
