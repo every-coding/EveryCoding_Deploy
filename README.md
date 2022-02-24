@@ -1,11 +1,14 @@
+
+## 최소 요구 사항 (Minimum requirements)
+
+프로세서(CPU) : Intel(R) Core(TM) i5-750 CPU @ 2.66GHz
+
+메모리(RAM) : 16GB (Linux, OS X의 경우 8GB)
+
+#### OS X
+
 ## Windows 10
 
-### 개발 H/W 사양
-프로세서 : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
-
-메모리 : 16GB
-
-OS : Windows 10 64bit
 
 ### Docker
 Docker, Docker-compose 설치
