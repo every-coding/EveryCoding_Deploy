@@ -1,8 +1,15 @@
 ## Windows 10
 
-Docker, Docker-compose 설치
+### 개발 H/W 사양
+프로세서 : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+
+메모리 : 16GB
+
+OS : Windows 10 64bit
 
 ### Docker
+Docker, Docker-compose 설치
+
 WSL2 기반 Docker 설치
 [Docker-desktop install](https://www.docker.com/products/docker-desktop)
 
@@ -13,8 +20,8 @@ Docker-Compose V2 옵션 적용
 이후 아래 명령어를 통해 각 컨테이너 이미지 내려받기 & 컨테이너 compose up 진행
 
 ```bash
-docker-compose -f docker-compose.yaml up -d
-# 개발 환경 구성의 경우 docker-compose -f docker-compose-develop.yaml up -d
+docker-compose -f docker-compose.yml up -d
+# 개발 환경 구성의 경우 docker-compose -f docker-compose-develop.yml up -d
 ```
 
 
