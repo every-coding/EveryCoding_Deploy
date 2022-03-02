@@ -1,11 +1,10 @@
+## 개요
 
 ## 최소 요구 사항 (Minimum requirements)
 
 프로세서(CPU) : Intel(R) Core(TM) i5-750 CPU @ 2.66GHz
 
 메모리(RAM) : 16GB (Linux, macOS(intel)의 경우 8GB)
-
-#### OS X
 
 ## Windows 10
 
