@@ -28,6 +28,9 @@ docker-compose -f docker-compose.yml up -d
 
 
 ### Front-end
+
+#### Jetbrains Gateway
+
 원격 개발 위한 Jetbrains Gateway 설치
 [Jetbrains Gateway install](https://www.jetbrains.com/ko-kr/remote-development/gateway/)
 
@@ -36,6 +39,9 @@ docker-compose -f docker-compose.yml up -d
 
 프로젝트 내 Github 로그인 진행 (Github page 내 Personal access tokens 사용 권장)
 
+#### Visual Studio Code
+
+추가바람
 
 ### Back-end
 Pycharm 설치
