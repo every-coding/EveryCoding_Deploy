@@ -1,5 +1,11 @@
 ## 개요
 
+### Repository
+
+#### [Frontend](https://github.com/DCUSnSLab/DCU_Online_Judge_Frontend)
+
+#### [Backend](https://github.com/DCUSnSLab/DCU_Online_Judge_Backend)
+
 ## 최소 요구 사항 (Minimum requirements)
 
 프로세서(CPU) : Intel(R) Core(TM) i5-750 CPU @ 2.66GHz
