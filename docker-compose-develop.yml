@@ -44,7 +44,7 @@ services:
           - TOKEN=CHANGE_THIS
           - judger_debug=1
     oj-backend:
-        image: ehddnjs1982/ec-backend:latest
+        image: junhp1234/oj_backend:latest
         #command: /app/start_ssh.sh
         container_name: oj-backend
         restart: always
@@ -67,7 +67,7 @@ services:
           - "0.0.0.0:5555:22"
 
     oj-frontend:
-        image: ehddnjs1982/ec-frontend:latest
+        image: junhp1234/oj_frontend:latest
         container_name: oj-frontend
         restart: always
         #command: /bin/bash -c "while true; do echo test; sleep 100; done"
