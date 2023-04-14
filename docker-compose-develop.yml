@@ -8,7 +8,7 @@ services:
           - ./data/redis:/data
   
     oj-postgres:
-        image: junhp1234/oj_postgres:latest
+        image: snslabdocker/oj_postgres:latest
         container_name: oj-postgres
         restart: always
         volumes:
@@ -21,7 +21,7 @@ services:
           - "5432:5432"
 
     judge-server:
-        image: junhp1234/judge_server:latest
+        image: snslabdocker/judge_server:latest
         container_name: judge-server
         restart: always
         read_only: true
@@ -44,7 +44,7 @@ services:
           - TOKEN=CHANGE_THIS
           - judger_debug=1
     oj-backend:
-        image: junhp1234/oj_backend:latest
+        image: snslabdocker/oj_backend:latest
         #command: /app/start_ssh.sh
         container_name: oj-backend
         restart: always
@@ -67,7 +67,7 @@ services:
           - "0.0.0.0:5555:22"
 
     oj-frontend:
-        image: junhp1234/oj_frontend:latest
+        image: snslabdocker/oj_frontend:latest
         container_name: oj-frontend
         restart: always
         #command: /bin/bash -c "while true; do echo test; sleep 100; done"
