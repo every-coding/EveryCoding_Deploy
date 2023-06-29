@@ -42,7 +42,7 @@ services:
           - TOKEN=CHANGE_THIS
           - judger_debug=1
     oj-backend:
-        image: snslabdocker/oj_backend:latest
+        image: snslabdocker/ec_backend:latest
         container_name: oj-backend
         restart: always
         depends_on:
@@ -61,7 +61,7 @@ services:
           # - STATIC_CDN_HOST=cdn.oj.com
 
     oj-frontend:
-        image: snslabdocker/oj_frontend:latest
+        image: snslabdocker/ec_frontend:latest
         container_name: oj-frontend
         restart: always
         #command: /bin/bash -c "while true; do echo test; sleep 100; done"
