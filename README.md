@@ -2,9 +2,9 @@
 
 ### Repository
 
-#### [Frontend](https://github.com/DCUSnSLab/DCU_Online_Judge_Frontend)
+#### [Frontend](https://github.com/every-coding/EveryCoding_Frontend)
 
-#### [Backend](https://github.com/DCUSnSLab/DCU_Online_Judge_Backend)
+#### [Backend](https://github.com/every-coding/EveryCoding_Backend)
 
 ## 최소 요구 사항 (Minimum requirements)
 
